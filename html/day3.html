@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    ul {
+        width: 300px;
+    }
+    li {
+        list-style: none;
+        float: left;
+        margin-right: 5px;
+        position: relative;
+        z-index: 0
+    }
+    .rightbanner a img {
+        width: 145px;
+        height: 145px;
+        display: block;
+    }
+    .rightbanner:hover .shadow{
+        background: rgb(0, 0, 0);
+    }
+    .rightbanner:hover .shadow{
+        background: rgba(0, 0, 0, 0.4);
+        transition: all .5s;
+        height: 100%;
+    }
+    .rightbanner:hover a img {
+        transform: scale(1.12);
+        transition: all .5s;
+    }
+    .rightbanner p {
+        font-size: 14px;
+        float: left;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        max-height: 36px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp:2;
+        -webkit-box-orient: vertical;
+    }
+    .rightbanner:hover p {
+        top: 50%;
+        left: 0;
+        margin-top: -36px;
+        max-height: 72px;
+        -webkit-line-clamp: 5;
+        transition: all .5s;
+    }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="rightbanner">
+            <a href="">
+                <img src="https://pic.36krcnd.com/201904/18080946/vru56fsttcorw4ts!heading" alt="">
+            </a>
+            <div class="shadow">
+                <p>「科百科技」完成数千万元A轮融资，用物联网+大数据做精准农业</p>
+            </div>
+        </li>
+        <li class="rightbanner">
+            <a href="">
+                <img src="https://pic.36krcnd.com/201904/18023211/zxm73zao3amo18ay!heading" alt="">
+            </a>
+            <p>666666</p>
+        </li>
+        <li class="rightbanner">
+            <a href="">
+                <img src="https://pic.36krcnd.com/201904/17061543/q2oerkqzvply6n9r!heading" alt="">
+            </a>
+            <p>666666</p>
+        </li>
+        <li class="rightbanner">
+            <a href="">
+                <img src="https://pic.36krcnd.com/201904/18023250/e8pd09gyp8ep7glu!heading" alt="">
+            </a>
+            <p>666666</p>
+        </li>
+    </ul>
+</body>
+</html>
